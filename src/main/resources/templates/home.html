@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        padding: 10px 20px;
+    }
+
+    .nav-logo {
+        flex: 1;
+    }
+
+    .nav-logo img {
+        max-width: 100px;
+    }
+
+    .nav-button {
+        flex: 1;
+        text-align: center;
+    }
+
+    .nav-button a {
+        margin: 0 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .nav-button a:hover {
+        background-color: #0056b3;
+    }
+
+    .nav-menu-btn {
+        flex: 1;
+        text-align: right;
+    }
+
+    .nav-menu-btn i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+
+</style>
+<body>
+<div class="wrapper">
+    <nav class="nav">
+        <div class="nav-logo1">
+            <img src="../static/images/log_suptech.png" alt="Logo">
+        </div>
+        <div class="nav-menu" id="navMenu">
+        </div>
+        <div class="nav-button">
+            <a href="login.html" class="btn" id="loginbtn">Login</a>
+            <!-- Rediriger vers la page signup -->
+            <a href="signup.html" class="btn" id="registerBtn">Sign Up</a>
+        </div>
+        <div class="nav-logo2">
+            <img src="../static/images/frdisi%20logo.png" alt="Logo">
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+
+</div>
+</body>
+</html>
